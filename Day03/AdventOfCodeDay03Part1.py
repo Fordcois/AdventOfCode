@@ -22,11 +22,6 @@ def FindInfoNumber(x_location,y_location):
         new_y = y_location
     return (found_number,number_length,new_x,new_y)
 
-
-
-
-
-#  Okay So I want to iterate through a list of potential coordinates and then try them
 def build_check_grid(x,y,size):
     list_of_coords_to_check=[]
 # Left
@@ -47,25 +42,18 @@ def build_check_grid(x,y,size):
 
     return (list_of_coords_to_check)
 
-coords=build_check_grid(1,9,2)
-# print (f'Full List of Coords is {coords}')
+
+
 def check_surrounding_squares(array):
     for coord_set in array:
         X = coord_set[1]
         Y = coord_set[0]
         if X >= 0 and Y >= 0:
-            # print(f'X:{X} Y:{Y} - Both are valid inputs So we check this')
             try:
                 if not (grid[X][Y]).isalpha() and  not (grid[X][Y]).isnumeric() and  (grid[X][Y]) !='.':
                     return True
             except IndexError:
                 pass
-
-
-
-
-
-
 
 
 def find_numbers_around_gears(x,y):
@@ -78,7 +66,6 @@ def find_numbers_around_gears(x,y):
                 numberchecks.append(get_details_of_number( x+spaces[1],y+spaces[0]))
         except IndexError:
             pass
-    print (f'{numberchecks}')
     if len(numberchecks)>1:
         calculate_gear_ratio(numberchecks)
 
@@ -125,10 +112,8 @@ def calculate_gear_ratio(array):
 X = 0
 Y = 0
 while Y < maximum_line_length:
-    X = 0  # Reset X back to 0 at the beginning of each Y iteration
+    X = 0  
     while X < number_of_rows:
-        # print(f'found {grid[Y][X]} at coordinate Y:{Y} X:{X}')  
-        # Print X and Y to see the coordinates being traversed
         if grid[Y][X] == '*':
             find_numbers_around_gears(X,Y)
         X += 1
