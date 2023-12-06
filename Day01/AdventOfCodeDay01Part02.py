@@ -37,6 +37,7 @@ for entry in coord_list:
     total_count+=entry_total
 
 print(f' The Final total is: {total_count}')
+# 55260
 
 
 

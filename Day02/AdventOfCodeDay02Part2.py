@@ -22,3 +22,5 @@ for game in inputlist:
     MinimumResult=result[1]*result[2]*result[3]
     total+=MinimumResult
 print (f'Total Would be: {total}')
+
+# Total Would be: 72596

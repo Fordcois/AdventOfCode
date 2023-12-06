@@ -25,5 +25,5 @@ def part_one():
     print (f'There are {result} Ways to beat these elves!')
 
 part_one()
-# 138915
+# There are 138915 Ways to beat these elves!
 

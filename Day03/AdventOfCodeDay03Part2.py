@@ -63,6 +63,7 @@ while Y < maximum_line_length:
     Y += 1 
 
 print (f'The Final total for part 2 is: {part2total}')
+# The Final total for part 2 is: 73201705
 
 
 

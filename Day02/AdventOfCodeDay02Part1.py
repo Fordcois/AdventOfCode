@@ -30,20 +30,4 @@ for game in inputlist:
         total+=results[0]
 
 print (f'Total Would be: {total}')
-
-
-
-
-
-
-    
-
-
-
-    
-
-
-    # GameNumber=split1[0]
-    # print (f'List 1: {split1[0]}')
-    # print (f'List 2: {split1[1]}')
-# Then RGB List Values
+# Total Would be: 2061

@@ -73,7 +73,6 @@ def reverse_solve(location_number):
             print (f'{location_number} is the lowest!')
             break
         location_number+=1
-#part 1
-find_lowest_location(seeds)
-# part 2
+
 reverse_solve(0)
+# 78775051 is the lowest!

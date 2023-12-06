@@ -21,9 +21,10 @@ for entry in coord_list:
         revealed_value=int(instance_total[0]+instance_total[1])
         
     total_number+=revealed_value
-    # print(revealed_value)
+
 
 print(total_number)
+# 55123
     
 
 

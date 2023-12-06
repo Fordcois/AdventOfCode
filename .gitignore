@@ -2,5 +2,4 @@
 *.pyc
 # Ignore .DS_Store files
 .DS_Store
-# Ignore scratchpad.py file in Utilities directory
-Utilities/scratchpad.py
+Utilities/

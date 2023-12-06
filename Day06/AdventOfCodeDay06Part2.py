@@ -22,5 +22,5 @@ def part_two():
 
 
 part_two()
-#27340847
+# You can beat these elves 27340847 ways
 

@@ -40,5 +40,6 @@ def find_lowest_location(array):
     print (f'The lowest location Number is: {lowest_location}')
 
 find_lowest_location(seeds)
+# The lowest location Number is: 227653707
 
 

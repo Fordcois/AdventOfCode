@@ -26,3 +26,4 @@ for index,card in enumerate(list_of_cards):
             add_to_collection(list_of_cards[(index+1)+i])
 
 print (f'You Scratched off: {sum(list(cards_dict.values()))}')
+# You Scratched off: 18846301

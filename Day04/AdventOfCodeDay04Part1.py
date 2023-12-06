@@ -18,9 +18,4 @@ for card in list_of_cards:
     check_card(card)
 
 print(f'Total Score is: {total_score}')
-
-
-
-
-
-
+# Total Score is: 24175
