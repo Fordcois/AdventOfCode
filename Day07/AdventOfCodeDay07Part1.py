@@ -61,4 +61,4 @@ for index,hand in enumerate(sorted_list):
     GameScore+=(hand.bid*(index+1))
 
 print (f'The Total Score is: {GameScore}')
-
+# The Total Score is: 250453939
