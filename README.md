@@ -6,7 +6,7 @@
 
 | Puzzle      | Solution | Result|
 | :---        |    :----:   |   :----:    |
-| [Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/Day01) | Here's this   |
+| [Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/Day01) | ⭐️⭐️ |
 | [Day 2: Cube Conundrum](https://adventofcode.com/2023/day/2) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/Day02) | ⭐️⭐️ |
 | [Day 3: Gear Ratios](https://adventofcode.com/2023/day/3) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/Day03) | ⭐️⭐️ |
 | [Day 4: Scratchcards](https://adventofcode.com/2023/day/4) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/Day04) | ⭐️⭐️ |
