@@ -14,3 +14,5 @@
 | [Day 6: Wait For It ](https://adventofcode.com/2023/day/6) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/Day06) | ⭐️⭐️ |
 | [Day 7: Camel Cards ](https://adventofcode.com/2023/day/7) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/Day07) | ⭐️⭐️ |
 | [Day 8: Haunted Wasteland ](https://adventofcode.com/2023/day/8) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/Day08) | ⭐️⭐️ |
+| [Day 9: Mirage Maintenance ](https://adventofcode.com/2023/day/9) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/Day09) | ⭐️⭐️ |
+
