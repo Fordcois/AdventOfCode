@@ -1,0 +1,1 @@
+from inputDay10 import *
