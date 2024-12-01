@@ -25,7 +25,7 @@ def solve():
     for i in range (len(list_a)):
         total_difference += abs(list_a[i]-list_b[i])
     
-    print (f'Total Difference is {total_difference}')
+    print (f'Total Difference is: {total_difference}')
 
 solve()
 
