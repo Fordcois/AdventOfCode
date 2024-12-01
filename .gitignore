@@ -3,5 +3,23 @@
 # Ignore .DS_Store files
 .DS_Store
 Utilities/
-# Ignore inputDay**.py files within Day** folders
-Day*/inputDay*.py
+
+# Cache files and folders
+__pycache__
+*.cache
+*.mypy_cache/
+*.pytest_cache/
+.pytest_cache/
+.dask/
+# Ignore inputDay**.py files within Day** folders (for 2023 Puzzles)
+inputDay*.py
+
+#Ignore real_input.txt and test_input.txt (for 2024 Puzzles)
+real_input.txt
+test_input.txt
+
+# Virtual environment
+festive_venv/
+env/
+.festive_venv/
+.env/
