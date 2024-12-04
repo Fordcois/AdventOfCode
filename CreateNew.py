@@ -6,16 +6,12 @@ year=2024
 
 def create_new_day():
     while True:
-        
         user_input_day = input('What Day is it? ').strip()
-            
         # Validate & clean input
         if not user_input_day.isdigit():
                 print('ERROR - Invalid Number')
                 break
-
-        day = int(user_input_day)
-        day_number = f'{day:02d}'
+        day_number = f'{int(user_input_day):02d}'
             
         # Create folder path
         folder_path = f'{year}/Day{day_number}'
@@ -36,7 +32,6 @@ def create_new_day():
             # Create Empty test_input.txt
             Path(f'{folder_path}/test_input.txt').touch()
 
-            
             # Template text for the Puzzle files
             template_text = """# Adjust Import Paths
 import sys
@@ -76,7 +71,28 @@ def test_connection():
             with open(f'{folder_path}/test_aoc{year}{day_number}.py', 'w') as file:
                 file.write(test_template_text)
 
-            print (f'Day {day_number} established - Good Luck!')
+            # Update the MD File:
+            puzzle_name = input("What is today's puzzle name? ").title().strip()
+
+            # Read the current content of the file to find the last line of the table
+            with open('README.md', 'r') as f:
+                file_content = f.readlines()
+            
+            last_line_of_table = len(file_content)
+            
+            for line_index,line_content in enumerate(file_content):
+                if line_content.strip() == f'</details EndOf{year}Table>':
+                    last_line_of_table = line_index
+                    break
+            
+            # Append the new row
+            file_content.insert(last_line_of_table, f'| [Day {int(day_number)}: {puzzle_name}](https://adventofcode.com/{year}/day/{int(day_number)}) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/{year}/Day{day_number}) | | \n')
+            
+            # Write the updated content back to the file
+            with open('README.md', 'w') as f:
+                f.writelines(file_content)
+
+            print (f'Day {day_number} - {puzzle_name} established - Good Luck!')
             return
 
 if __name__ == "__main__":

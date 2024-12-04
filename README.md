@@ -15,8 +15,7 @@
 | [Day 2: Red-Nosed Reports](https://adventofcode.com/2024/day/2) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2024/Day02) | ⭐️⭐️ |
 | [Day 3: Mull It Over](https://adventofcode.com/2024/day/3) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2024/Day03) | ⭐️⭐️ |
 | [Day 4: Ceres Search](https://adventofcode.com/2024/day/4) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2024/Day04) | ⭐️⭐️ |
-
-</details>
+</details EndOf2024Table>
 
 <details>
     <summary>2023 - ⭐️ 19 Stars</summary>
@@ -33,5 +32,4 @@
 | [Day 8: Haunted Wasteland ](https://adventofcode.com/2023/day/8) | [Solution](https://github.com/Fordcois/AdventOfCode/blob/main/2023/Day08) | ⭐️⭐️ |
 | [Day 9: Mirage Maintenance ](https://adventofcode.com/2023/day/9) | [Solution](https://github.com/Fordcois/AdventOfCode/blob/main/2023/Day09) | ⭐️⭐️ |
 | [Day 10: Pipe Maze ](https://adventofcode.com/2023/day/10) | [Solution](https://github.com/Fordcois/AdventOfCode/blob/main/2023/Day10) | ⭐️ |
-
-</details>
+</details EndOf2023Table>
