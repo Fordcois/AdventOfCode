@@ -42,9 +42,8 @@ sys.path.insert(0, project_root)
 from utils.ParseTXTAsList import Parse_Txt_as_List
 
 # Substitue test/real to switch inputs
-data_set = 'real'
+data_set = 'test'
 data = Parse_Txt_as_List(f'{data_set}_input.txt')
-from utils.ParseTXTAsList import Parse_Txt_as_List
 
 # Puzzle
 def solve():
