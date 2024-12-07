@@ -1,14 +1,13 @@
 # Adjust Import Paths
 import sys
 import os
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-sys.path.insert(0, project_root)
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 # Import Utilities
-from utils.ParseTXTAsList import Parse_Txt_as_List
+from utilities.read_file_as_str_list import file_as_list_of_strings
 
 # Substitue test/real to switch inputs
-data_set = 'real'
-data = Parse_Txt_as_List(f'{data_set}_input.txt')
+data_set = 'test'
+data = file_as_list_of_strings(f'{data_set}_input.txt')
 
 def solve():
     total_difference = 0

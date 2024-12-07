@@ -1,16 +1,14 @@
 # Adjust Import Paths
 import sys
 import os
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-sys.path.insert(0, project_root)
-# Import Utilities
-from utils.ParseTXTAsList import Parse_Txt_as_List
 import itertools
-
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+# Import Utilities
+from utilities.read_file_as_str_list import file_as_list_of_strings
 
 # Substitue test/real to switch inputs
 data_set = 'test'
-data = Parse_Txt_as_List(f'{data_set}_input.txt')
+data = file_as_list_of_strings(f'{data_set}_input.txt')
 
 # Clean Data 
 formatted_data = [(int(split_line[0]), [int(x) for x in split_line[1].strip().split()]) for split_line in (line.split(':') for line in data)]

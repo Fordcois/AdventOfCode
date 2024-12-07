@@ -1,16 +1,15 @@
 # Adjust Import Paths
 import sys
 import os
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-sys.path.insert(0, project_root)
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 # Import Utilities
-from utils.ParseTXTAsIntArr import parse_txt_return_int_arr
+from utilities.read_file_as_list_of_int_array import file_as_list_of_int_arrays
 
 # Substitue test/real to switch inputs
-data_set = 'real'
-data = parse_txt_return_int_arr(f'{data_set}_input.txt')
-# Puzzle
+data_set = 'test'
+data = file_as_list_of_int_arrays(f'{data_set}_input.txt')
 
+# Puzzle
 def is_safe(array):
     # Is all Increasing or all Decreasing
     if array not in [sorted(array),sorted(array,reverse=True)]:

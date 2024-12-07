@@ -33,17 +33,16 @@ def create_new_day():
             Path(f'{folder_path}/test_input.txt').touch()
 
             # Template text for the Puzzle files
-            template_text = """# Adjust Import Paths
-import sys
+            template_text = """import sys
 import os
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-sys.path.insert(0, project_root)
+# Adjust Import Paths
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 # Import Utilities
-from utils.ParseTXTAsList import Parse_Txt_as_List
+from utilities.read_file_as_str_list import file_as_list_of_strings
 
 # Substitue test/real to switch inputs
 data_set = 'test'
-data = Parse_Txt_as_List(f'{data_set}_input.txt')
+data = file_as_list_of_strings(f'{data_set}_input.txt')
 
 # Puzzle
 def solve():

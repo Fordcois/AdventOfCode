@@ -1,4 +1,4 @@
-def parse_txt_return_int_arr(txtfile):
+def file_as_list_of_int_arrays(txtfile):
     output = []
     with open(txtfile, 'r') as file:
         for line in file:

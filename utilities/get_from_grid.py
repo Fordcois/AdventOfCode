@@ -5,3 +5,5 @@ def grid_get(grid, x, y, default = "."):
         return grid[y][x]
     except IndexError:
         return default
+    
+# If grid is out of bounds will return a '.'

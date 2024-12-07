@@ -1,14 +1,13 @@
 # Adjust Import Paths
 import sys
 import os
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-sys.path.insert(0, project_root)
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 # Import Utilities
-from utils.ParseTXTAsListofLists import parse_Txt_as_list_of_lists
+from utilities.read_file_as_array_array import read_file_as_array_array
 
 # Substitue test/real to switch inputs
-data_set = 'real'
-data = parse_Txt_as_list_of_lists(f'{data_set}_input.txt')
+data_set = 'test'
+data = read_file_as_array_array(f'{data_set}_input.txt')
 
 # Puzzle
 def solve():

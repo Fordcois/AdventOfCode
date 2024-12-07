@@ -2,7 +2,6 @@
 *.pyc
 # Ignore .DS_Store files
 .DS_Store
-Utilities/
 
 # Cache files and folders
 __pycache__
