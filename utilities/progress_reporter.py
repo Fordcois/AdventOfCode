@@ -6,14 +6,18 @@ class ProgressChecker:
         self.__number_width = len(str(self.number_to_check))
         self.checks_complete = 0
         
-        # Hide the cursor at initialization
+        # Hide the cursor
         sys.stdout.write("\033[?25l")
+        sys.stdout.flush()
+
+    def __del__(self):
+        # Ensure cursor is restored when the object is deleted
+        sys.stdout.write("\033[?25h")
         sys.stdout.flush()
     
     def update_progress(self):
         self.checks_complete += 1
         
-        # Calculate percentage
         percentage = (self.checks_complete / self.number_to_check) * 100
         
         # Colour codes
@@ -26,9 +30,14 @@ class ProgressChecker:
                         f"{str(self.checks_complete).zfill(self.__number_width)}"
                         f"{neon_blue}{bold}\\{reset}{self.number_to_check}")
         
-        # Use sys.stdout for immediate printing and flushing
         sys.stdout.write(progress_msg)
         sys.stdout.flush()
+        
+        # Ensure a clean newline when complete
+        if self.checks_complete >= self.number_to_check:
+            sys.stdout.write("\n") 
+            sys.stdout.write("\033[?25h")  # Restore cursor
+            sys.stdout.flush()
         
 
 
