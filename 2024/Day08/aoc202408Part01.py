@@ -50,8 +50,6 @@ def solve():
                 else:
                     antennas[char] = [[y_index,x_index]]
 
-
-        
     for aerial in antennas:
         found_antenna_pairings = list(itertools.combinations(antennas[aerial], 2))
 
@@ -62,7 +60,7 @@ def solve():
                 if location_in_bounds(data,spot[1],spot[0],False) != False:
                     if spot not in anti_list:
                         anti_list.append(spot)
-                        
+
     print (f'We Found {len(anti_list)} antinodes')
 
 solve()
