@@ -3,11 +3,11 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 # Import Utilities
-from utilities.read_file_as_list_of_int_array import file_as_list_of_int_arrays
+from utilities.read_file_as_list_of_ints import file_as_list_of_ints
 
 # Substitue test/real to switch inputs
 data_set = 'test'
-data = file_as_list_of_int_arrays(f'{data_set}_input.txt')
+data = file_as_list_of_ints(f'{data_set}_input.txt')
 
 # Puzzle
 def is_safe(array):
