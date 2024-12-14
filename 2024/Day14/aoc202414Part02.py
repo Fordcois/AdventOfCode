@@ -1,14 +1,16 @@
 import sys
 import os
 import re
-import math
+from PIL import Image
+
 # Adjust Import Paths
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 # Import Utilities
 from utilities.read_file_as_str_list import file_as_list_of_strings
+from utilities.progress_reporter import ProgressChecker
 
 # Substitue test/real to switch inputs
-data_set = 'test'
+data_set = 'real'
 data = file_as_list_of_strings(f'{data_set}_input.txt')
 
 class SecurityRobot:
@@ -41,6 +43,33 @@ class SecurityRobot:
     def return_loc(self):
         return self.x_loc,self.y_loc
 
+def draw(x_size,y_size,pixel_array,steps):
+    # Define the dimensions of the pixel art canvas
+    width,height = x_size, y_size
+
+
+    # Create a blank image with RGB mode
+    image = Image.new("RGB", (width, height), "white")
+    pixels = image.load()
+    scale=10
+
+    # Define the pixel art pattern (a simple smiley face, for instance)
+    # Use nested loops to define the pixel colors
+    for y in range(height):
+        for x in range(width):
+            if (x,y) in pixel_array:
+                pixels[x, y] = (0, 66, 37)
+            else:
+                pixels[x, y] = (21, 27, 31) 
+
+    # Scale the image to make it larger for better visibility
+    image = image.resize((width * scale, height * scale), Image.NEAREST)
+
+    # Save the pixel art as a PNG file
+    image.save(f"images/botmap_{steps}.png")
+    # print("Pixel art saved as 'pixel_art.png'")
+
+
 def locate_quad(coord_tuple,x_size,y_size):
     x_half_way = x_size//2
     y_half_way = y_size//2
@@ -58,19 +87,28 @@ def locate_quad(coord_tuple,x_size,y_size):
             hori='east'
         return vert+hori
 
+
 def solve():
     number_pattern = '-?\d+'
     map_x = 101
     map_y = 103
+    simulations_to_run = 10000
+
+    progress=ProgressChecker(simulations_to_run)
     quads= {'northwest':0,'northeast':0,'southwest':0,'southeast':0}
     robots = [SecurityRobot(re.findall(number_pattern,line),map_x,map_y) for line in data]
-    for robot in robots:
-        robot.move_times(100)
-        quad = locate_quad(robot.return_loc(),map_x,map_y)
-        if quad:
-            quads[quad] +=1
+    for i in range(simulations_to_run):
+        progress.update_progress()
+        quads= {'northwest':0,'northeast':0,'southwest':0,'southeast':0}
+        for robot in robots:
+            robot.move()
+            quad = locate_quad(robot.return_loc(),map_x,map_y)
+            if quad:
+                quads[quad] +=1
+        if  any(bots_in_quad > 250 for bots_in_quad in quads.values()):
+            robot_locations = [x.return_loc() for x in robots]
+            draw(map_x,map_y,robot_locations,i+1)
 
-    print (f'Sum of all bots in quadrants is: {math.prod(quads.values())}')
 
 
     
