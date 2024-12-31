@@ -4,8 +4,6 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 # Import Utilities
 from utilities.read_file_as_array_of_str_arrays import file_as_list_of_string_arrays
-from utilities.visualise_grid import visualize_grid
-from utilities.progress_reporter import ProgressChecker
 
 # Substitue test/real to switch inputs
 data_set = 'real'
