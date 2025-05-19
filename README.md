@@ -49,3 +49,13 @@
 | [Day 9: Mirage Maintenance ](https://adventofcode.com/2023/day/9) | [Solution](https://github.com/Fordcois/AdventOfCode/blob/main/2023/Day09) | ⭐️⭐️ |
 | [Day 10: Pipe Maze ](https://adventofcode.com/2023/day/10) | [Solution](https://github.com/Fordcois/AdventOfCode/blob/main/2023/Day10) | ⭐️ |
 </details EndOf2023Table>
+
+<details>
+    <summary>2015 - ⭐️ 06 Stars</summary>
+| Puzzle      | Solution | Result|
+| :---        |    :----:   |   :----:    |
+| [Day 1: Not Quite Lisp](https://adventofcode.com/2015/day/1) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day01) | ⭐️⭐️ | 
+| [Day 2: I Was Told There Would Be No Math](https://adventofcode.com/2015/day/2) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day02) |⭐️⭐️ | 
+| [Day 3: Perfectly Spherical Houses In A Vacuum](https://adventofcode.com/2015/day/3) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day03) | ⭐️⭐️ | 
+</details EndOf2015Table>
+
