@@ -51,11 +51,13 @@
 </details EndOf2023Table>
 
 <details>
-    <summary>2015 - ⭐️ 06 Stars</summary>
+    <summary>2015 - ⭐️ 08 Stars</summary>
 | Puzzle      | Solution | Result|
 | :---        |    :----:   |   :----:    |
 | [Day 1: Not Quite Lisp](https://adventofcode.com/2015/day/1) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day01) | ⭐️⭐️ | 
 | [Day 2: I Was Told There Would Be No Math](https://adventofcode.com/2015/day/2) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day02) |⭐️⭐️ | 
 | [Day 3: Perfectly Spherical Houses In A Vacuum](https://adventofcode.com/2015/day/3) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day03) | ⭐️⭐️ | 
+| [Day 4: The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day04) | ⭐️⭐️| 
+| [Day 5: Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day05) | | 
 </details EndOf2015Table>
 
