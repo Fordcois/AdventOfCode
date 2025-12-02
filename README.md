@@ -17,6 +17,7 @@
 | Puzzle      | Solution | Result|
 | :---        |    :----:   |   :----:    |
 | [Day 1: Secret Entrance](https://adventofcode.com/2025/day/1) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2025/Day01) | ⭐️⭐️ | 
+| [Day 2: Gift Shop](https://adventofcode.com/2025/day/2) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2025/Day02) | ⭐️ | 
 
 </details EndOf2025Table>
 
@@ -67,6 +68,7 @@
 
 <details>
     <summary>2015 - ⭐️ 12 Stars</summary>
+    
 | Puzzle      | Solution | Result|
 | :---        |    :----:   |   :----:    |
 | [Day 1: Not Quite Lisp](https://adventofcode.com/2015/day/1) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day01) | ⭐️⭐️ | 
