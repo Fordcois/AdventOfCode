@@ -73,7 +73,7 @@ def test_connection():
             puzzle_name = input("What is today's puzzle name? ").title().strip()
 
             # Read the current content of the file to find the last line of the table
-            with open('README.md', 'r') as f:
+            with open('README.md', 'r', encoding='utf-8') as f:
                 file_content = f.readlines()
             
             last_line_of_table = len(file_content)
@@ -87,7 +87,7 @@ def test_connection():
             file_content.insert(last_line_of_table, f'| [Day {int(day_number)}: {puzzle_name}](https://adventofcode.com/{year}/day/{int(day_number)}) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/{year}/Day{day_number}) | | \n')
             
             # Write the updated content back to the file
-            with open('README.md', 'w') as f:
+            with open('README.md', 'w', encoding='utf-8') as f:
                 f.writelines(file_content)
 
             print (f'Day {day_number} - {puzzle_name} established - Good Luck!')

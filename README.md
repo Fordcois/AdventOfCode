@@ -18,8 +18,7 @@
 | :---        |    :----:   |   :----:    |
 | [Day 1: Secret Entrance](https://adventofcode.com/2025/day/1) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2025/Day01) | ⭐️⭐️ | 
 | [Day 2: Gift Shop](https://adventofcode.com/2025/day/2) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2025/Day02) | ⭐️⭐️ | 
-| [Day 2: Lobby](https://adventofcode.com/2025/day/3) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2025/Day03) | ⭐️⭐️ | 
-
+| [Day 2: Lobby](https://adventofcode.com/2025/day/3) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2025/Day03) | ⭐️⭐️ |
 </details EndOf2025Table>
 
 
