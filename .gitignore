@@ -16,6 +16,7 @@ inputDay*.py
 #Ignore real_input.txt and test_input.txt (for 2024 Puzzles)
 real_input.txt
 test_input.txt
+AocNotes.md
 
 # Virtual environment
 festive_venv/
