@@ -42,7 +42,7 @@ def solved():
 
     
     stars = sum(line.count('⭐️') for line in file_content[start_table_index+2 : end_table_index])
-    file_content[start_table_index] = f'<summary>{user_input_year} - ⭐️ {stars} Stars</summary> \n'
+    file_content[start_table_index] = f'<summary>{user_input_year} - ⭐️ {stars} Stars</summary>\n'
 
     print (f'Congratulations on Solving Day {user_input_day} - You have {stars} stars for {user_input_year}')
 
