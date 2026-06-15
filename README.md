@@ -71,6 +71,14 @@
 </details EndOf2023Table>
 
 <details>
+<summary>2016 - ⭐️ 1 Stars</summary>
+| Puzzle      | Solution | Result|
+| :---        |    :----:   |   :----:    |
+| [Day 1: No Time For A Taxicab](https://adventofcode.com/2016/day/1) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2016/Day01) | ⭐️ |
+</details EndOf2016Table>
+
+
+<details>
 <summary>2015 - ⭐️ 12 Stars</summary>
     
 | Puzzle      | Solution | Result|
@@ -82,4 +90,6 @@
 | [Day 5: Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day05) | ⭐️⭐️ | 
 | [Day 6: Probably A Fire Hazard](https://adventofcode.com/2015/day/6) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day06) | ⭐️⭐️ | 
 </details EndOf2015Table>
+
+
 
