@@ -71,10 +71,14 @@
 </details EndOf2023Table>
 
 <details>
-<summary>2016 - ⭐️ 1 Stars</summary>
+<summary>2016 - ⭐️ 8 Stars</summary>
+
 | Puzzle      | Solution | Result|
 | :---        |    :----:   |   :----:    |
-| [Day 1: No Time For A Taxicab](https://adventofcode.com/2016/day/1) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2016/Day01) | ⭐️ |
+| [Day 1: No Time For A Taxicab](https://adventofcode.com/2016/day/1) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2016/Day01) | ⭐️⭐️ |
+| [Day 2: Bathroom Security](https://adventofcode.com/2016/day/2) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2016/Day02) | ⭐️⭐️ |
+| [Day 3: Squares With Three Sides](https://adventofcode.com/2016/day/3) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2016/Day03) | ⭐️⭐️ |
+| [Day 4: Security Through Obscurity](https://adventofcode.com/2016/day/4) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2016/Day04) | ⭐️⭐️ |
 </details EndOf2016Table>
 
 
