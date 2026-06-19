@@ -71,7 +71,7 @@
 </details EndOf2023Table>
 
 <details>
-<summary>2016 - ⭐️ 12 Stars</summary>
+<summary>2016 - ⭐️ 13 Stars</summary>
 
 | Puzzle      | Solution | Result|
 | :---        |    :----:   |   :----:    |
@@ -81,6 +81,7 @@
 | [Day 4: Security Through Obscurity](https://adventofcode.com/2016/day/4) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2016/Day04) | ⭐️⭐️ |
 | [Day 5: How About A Nice Game Of Chess?](https://adventofcode.com/2016/day/5) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2016/Day05) | ⭐️⭐️ |
 | [Day 6: Signals And Noise](https://adventofcode.com/2016/day/6) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2016/Day06) | ⭐️⭐️ |
+| [Day 7: Internet Protocol Version 7](https://adventofcode.com/2016/day/7) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2016/Day07) | ⭐️ |
 </details EndOf2016Table>
 
 
