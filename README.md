@@ -86,7 +86,7 @@
 
 
 <details>
-<summary>2015 - ⭐️ 12 Stars</summary>
+<summary>2015 - ⭐️ 13 Stars</summary>
     
 | Puzzle      | Solution | Result|
 | :---        |    :----:   |   :----:    |
@@ -96,6 +96,7 @@
 | [Day 4: The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day04) | ⭐️⭐️| 
 | [Day 5: Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day05) | ⭐️⭐️ | 
 | [Day 6: Probably A Fire Hazard](https://adventofcode.com/2015/day/6) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day06) | ⭐️⭐️ | 
+| [Day 7: Some Assembly Required](https://adventofcode.com/2015/day/7) | [Solution](https://github.com/Fordcois/AdventOfCode/tree/main/2015/Day07) | ⭐️ |
 </details EndOf2015Table>
 
 
